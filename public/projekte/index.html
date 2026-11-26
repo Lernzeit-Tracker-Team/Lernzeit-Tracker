@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekte - Lernzeit-Tracker</title>
+     <link rel="stylesheet" href="../shared/pico.min.css">
+    <link rel="stylesheet" href="../shared/style.css">
+</head>
+<body>
+    <header class="container">
+    <nav>
+        <ul><li><strong>Lernzeit-Tracker</strong></li></ul>
+        <ul>
+            <li><a href="../index.html" >Übersicht</a></li>
+            <li><a href="../projekte/index.html" aria-current="page" >Meine Lernprojekte</a></li>
+            <li><a href="../zeiten/index.html" >Meine Lernzeiten</a></li>
+        </ul>
+    </nav>
+   </header>
+   <main class="container">
+    <article class="goalCard">
+      <header>
+  <nav>
+    <ul>
+      <li><h3>Meine Lernprojekte</h3></li>
+    </ul>
+    <ul>
+      <li>
+        <input type="search" id="goalSearch"
+               placeholder="Lernprojekte suchen …"
+               aria-label="Lernprojekte suchen">
+      </li>
+      <li><button id="addProject">+ Hinzufügen</button></li>
+    </ul>
+  </nav>
+</header>
+        <div class="goalElements">
+        </div>
+    </article>
+   </main >
+   <script src="projekte.js"></script>
+</body>
+</html>
